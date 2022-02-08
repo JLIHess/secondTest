@@ -80,9 +80,16 @@
 .goldenH2{
     color: #b79b6e;
     font-family: 'CanelaRegular';
-    font-size: 50px;
+    /* font-size: 50px; */
     line-height: 73px;
     margin-top: 20px;
+}
+.goldH4{
+    color:#b79b6e;
+    font-family: 'GroteskLight';
+    /* font-size: 17px; */
+
+
 }
 .centerHeader{
     text-align: center;
@@ -95,20 +102,35 @@
 .navigationBar{
     background-image: url(assets/marble.jpg);
     padding-top: 5px;
-    color: #29326e;
+    /* color: #b79b6e; */
+    /* color: #29326e; */
 }
 .custom-toggler.navbar-toggler{
-    border-color: #29326E;
-    color: #29326E;
+    border-color: #B69A6E;
+    color: #B69A6E;
+    /* border-color: #29326E;
+    color: #29326E; */
 }
 .custom-toggler .navbar-toggler-icon{
-background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(41, 50, 110, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(183, 155, 110, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
 }
 .nav-link{
     line-height: 100px;
     font-family: 'GroteskRegular';
     color: #29326e;
+    font-size: 17px;
+    /* color: #B69A6E; */
 }
+/* .nav-link{
+    line-height: 100px;
+    font-family: 'GroteskRegular';
+    color: #29326e;
+} */
+/* .home .nav-link{
+    line-height: 100px;
+    font-family: 'GroteskRegular';
+    color: #B69A6E;
+} */
 
 /* .bordd{
 
@@ -484,9 +506,9 @@ input[type="checkbox"]:checked + .label-collapse ~ .label-content {
 /**************************************************************/
 /* Contact Us Page */
 /**************************************************************/
-.contactForm{
+/* .contactForm{
     background: #fdfbf8;
-}
+} */
 .contactHeader{
     color: #b79b6e;
     
@@ -554,7 +576,7 @@ label{
 /**************************************************************/
 /* Faculty Page */
 /**************************************************************/
-.facultyBackground{
+.biegeBackground{
     background: #fdfbf8;
 }
 .facultyPic{
@@ -632,6 +654,7 @@ label{
 /* medium brekpoint */
 @media (max-width:767.98px){
     /* Landing Page */
+
     .headButton{
         float: none;
     }
@@ -647,11 +670,24 @@ label{
 }
 /* @media (min-width:768) */
 
-@media (max-width:921.98px){
+@media (max-width:922px){
     /* Landing Page */
     .birdFix{
         font-size: 20px;
     }
+}
+
+@media (max-width:991px){
+    .navigationBar{
+        background-image: none;
+        /* background-color: transparent; */
+    }
+    .nav-link{
+        text-align: center;
+        font-size: 25px;
+        color: #B69A6E;
+    }
+
 }
 
 
