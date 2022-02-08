@@ -119,6 +119,8 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
     font-family: 'GroteskRegular';
     color: #29326e;
     font-size: 17px;
+    /* padding: 0px 30px; */
+    /* padding: 10px; */
     /* color: #B69A6E; */
 }
 /* .nav-link{
