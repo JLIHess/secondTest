@@ -564,9 +564,14 @@ label{
     .footText{
         margin-top: 50px;
     }
+    /* Navigation */
+    .nav-link{
+        font-size: 10px;
+    }
+  
 
     /* Landing Page */
-        .numbers{
+    .numbers{
         font-size: 11vw;
     }
     .numberLabel{
@@ -608,11 +613,13 @@ label{
 @media (max-width:991px){
     .navigationBar{
         background-image: none;
+        padding-bottom: 60px;
         /* background-color: transparent; */
     }
     .nav-link{
-        text-align: center;
-        font-size: 50px;
+        /* text-align: center; */
+        font-size: 7vw;
+        /* font-size: 50px; */
         color: #B69A6E;
         /* color: red; */
         margin-bottom: -40px;
@@ -630,17 +637,82 @@ label{
     }
     .dropdown-item{
         color:#b69a6e;
-        margin-left: auto;
-        margin-right: auto;
+        /* margin-left: auto;
+        margin-right: auto; */
         width: 14em;
         /* text-align: center; */
-        font-size: 20px;
+        font-size: 3vw;
+        /* font-size: 20px; */
     }
     .dropdown-item:focus, .dropdown-item:hover{
         color: #b69a6e;
         background-color: #f5eee6;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Reigistrattion Page */
