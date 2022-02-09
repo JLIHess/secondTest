@@ -67,10 +67,6 @@
     padding-left: 10px; /* lil padding */
     width: 90%;
 }
-/* .gold2{
-    color: #B69A6E;
-    margin-top: 20px;
-} */
 .goldH1{
     color: #B69A6E;
     font-family: 'CanelaRegular';
@@ -88,14 +84,14 @@
     color:#b79b6e;
     font-family: 'GroteskLight';
     /* font-size: 17px; */
-
-
 }
 .centerHeader{
     text-align: center;
     padding-top: 50px;
     padding-bottom: 25px;
-
+}
+.biegeBackground{
+    background: #fdfbf8;
 }
 
 /* Nav Bar */
@@ -108,8 +104,6 @@
 .custom-toggler.navbar-toggler{
     border-color: #B69A6E;
     color: #B69A6E;
-    /* border-color: #29326E;
-    color: #29326E; */
 }
 .custom-toggler .navbar-toggler-icon{
 background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(183, 155, 110, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
@@ -119,25 +113,25 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
     font-family: 'GroteskRegular';
     color: #29326e;
     font-size: 17px;
-    /* padding: 0px 30px; */
-    /* padding: 10px; */
-    /* color: #B69A6E; */
 }
-/* .nav-link{
-    line-height: 100px;
-    font-family: 'GroteskRegular';
+.nav-link:focus, .nav-link:hover{
+    color: #29326ead;
+}
+.dropdown-menu.show{
+    background-color: #f5eee6;
+    margin-top: -45px;
+    margin-left: 6px;
+    border: none;
+}
+.dropdown-item{
+    color:#29326e;
+}
+.dropdown-item:focus, .dropdown-item:hover{
     color: #29326e;
+    background-color: #f5eee6;
+}
+/* .buttonBord{
 } */
-/* .home .nav-link{
-    line-height: 100px;
-    font-family: 'GroteskRegular';
-    color: #B69A6E;
-} */
-
-/* .bordd{
-
-} */
-
 
 /* Footer */
 .pedicure{
@@ -218,16 +212,9 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
     border: none;
     color: #FFFFFF;
     padding: 9px 20px;
-    /* margin-top: 20px; */
     border-radius: 6px;
     font-size: 37px;
-    
-    /* margin: 0;
-    position: absolute;
-    top: 70%;
-    transform: translateY(-70%); */
 }
-
 .meetTheRetreat{
     background-color: #fbf7f3;
     height: 680px;  
@@ -239,23 +226,18 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
     background-color: transparent;
     border: none;
 }
-/* modal */
 .modal-dialog{
     max-width: 595px;
-    /* margin: 30px auto; */
 }
 .recap{
     color: #B69A6E;
     font-family: 'GroteskBold';
     font-size: 28px;
-    /* margin-top: 0%; */
-    /* margin-left: 4%; */
 }
 .retreatP{
     color: #29326E;
     font-family: 'GroteskLight';
     font-size: 23px;
-    /* line-height: 24pt; */
 }
 .learnMore{
     color: #B69A6E;
@@ -281,7 +263,6 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
     color: #f2e4d6;
     font-size: 25px;
 }
-
 .retreatPrograms{
     position: relative;
 }
@@ -289,6 +270,7 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
 .topSpace{
     padding-top: 50px;
 }
+/*Deal with ^ later*/
 .goldenLine{
     border-bottom: 0.5px solid #b79b6e;
     padding: 50px 0px;
@@ -314,18 +296,12 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
 }
 .earlyBird{
     color: #f2e4d6;
-    /* font-size: 28px; */
-    /* font-family: 'GroteskBold'; */
     z-index: 1;
 }
 .earlygoldBox{
     background: #B69A6E;
     height: 143px;
     margin-top: -95.5px;
-    /* font-size: 3vw; */
-    /* display: grid;
-    align-items: center;
-    text-align: center; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -387,9 +363,9 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
 }
 .accomodationImg{
     height: auto;
-background-position: center;
-background-repeat: no-repeat;
-background-size: fill;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: fill;
     /* width: 100%; */
     /* max-width: 700px; */
 }
@@ -398,7 +374,6 @@ background-size: fill;
     padding-top: 80px;
     padding-bottom: 100px;
     /* margin-top: 20px; */
-
 }
 .pageSec{
     border-bottom: #b79b6e solid 1px;
@@ -409,7 +384,6 @@ background-size: fill;
     font-family: 'GroteskRegular';
     color: #17244B;
     font-size: 20px;
-
 }
 .lightBlue{
     font-family: 'GroteskLight';
@@ -450,37 +424,27 @@ background-size: fill;
     /* font-weight: 500; */
     border-bottom: 1px solid #b79b6e;
     overflow: hidden;
-    
 }
 .label-collapse {
     display: flex;
     justify-content: space-between;
     padding: 1em;
     font-family: 'GroteskMedium';
-    /* color: red; */
-    /* padding-bottom: 30px; */
-    /* align-content: end; */
 }
 .label-collapse::after {
     content: '+';
     text-align: center;
-    /* text-align: right; */
-    transition: all .10s;
-    /* color: red; */
-    /* -ms-transform: rotate(90deg);
-    transform: rotate(90deg); */
+    transition: all .10s;   
 }
 .label-content {
     max-height: 0;
     /* padding-top: 50px; */
     /* padding: 0 1em; */
     transition: all .10s;
-    /* font-family: 'GroteskLight'; */
 }
 .text{
     padding-top: 100px;
 }
-
 input[type="checkbox"]:checked + .label-collapse::after {
     content: '-';
     text-align: center;
@@ -491,11 +455,7 @@ input[type="checkbox"]:checked + .label-collapse ~ .label-content {
     max-height: 100%;
     padding: 16px;
     color:#17244b;
-    /* color:red; */
     font-family: 'GroteskLight';
-    /* font-size: 20px; */
-    /* font-family: 'Grotesk'; */
-    /* font-weight: normal; */
 }
 .programsFaq{
     margin-top: 70px;
@@ -538,14 +498,7 @@ label{
     border: none;
     border-bottom: 0.5px solid #b79b6e;
     border-radius: 0;
-    /* border-radius: none; */
 }
-/* .form-control:valid {
-    background-color:  #96d3ec;
-  } */
-/* input{
-    background-color: #b79b6e;
-} */
 .sideInfo{
     margin-top: 30px;
     padding-top: 50px;
@@ -565,11 +518,7 @@ label{
 }
 .goldLogo{
     text-align: center;
-    /* padding-top:50px; */
-    /* height: 70px; */
-
 }
-
 /* .label {
     margin-bottom: 10px;
 } */
@@ -578,9 +527,6 @@ label{
 /**************************************************************/
 /* Faculty Page */
 /**************************************************************/
-.biegeBackground{
-    background: #fdfbf8;
-}
 .facultyPic{
     width: auto;
     height: 300px;
@@ -600,25 +546,9 @@ label{
     font-family: 'GroteskRegular';
 }
 
-
-
-
-
-/* testing */
-/* .bs-example {
-    margin: 20px;
-}
- 
-.modal-content iframe {
-    margin: 0 auto;
-    display: block;
-} */
-
-/* Large Mobile */
-/* @media (max-width:425px){
-
-} */
-
+/**************************************************************/
+/* CSS for different breakpoints */
+/**************************************************************/
 /* small breakpoint */
 @media (max-width:575.98px){
     /* Multi-page usage */
@@ -634,7 +564,6 @@ label{
     .footText{
         margin-top: 50px;
     }
-    
 
     /* Landing Page */
         .numbers{
@@ -649,14 +578,11 @@ label{
         margin-top: 50px;
         margin-bottom: -30px;
     }
-
-
 }
 
-/* medium brekpoint */
+/* Medium brekpoint */
 @media (max-width:767.98px){
     /* Landing Page */
-
     .headButton{
         float: none;
     }
@@ -670,7 +596,6 @@ label{
         text-align: center;
     }
 }
-/* @media (min-width:768) */
 
 @media (max-width:922px){
     /* Landing Page */
@@ -679,6 +604,7 @@ label{
     }
 }
 
+/* Large breakpoint */
 @media (max-width:991px){
     .navigationBar{
         background-image: none;
@@ -686,182 +612,39 @@ label{
     }
     .nav-link{
         text-align: center;
-        font-size: 25px;
+        font-size: 50px;
         color: #B69A6E;
-    }
+        /* color: red; */
+        margin-bottom: -40px;
 
+        /* padding-bottom: 10px; */
+    }
+    .nav-link:focus, .nav-link:hover{
+        color: #b69a6e66;
+    }
+    .dropdown-menu.show{
+        background-color: transparent;
+        margin-top: -45px;
+        margin-left: 6px;
+        border: none;
+    }
+    .dropdown-item{
+        color:#b69a6e;
+        margin-left: auto;
+        margin-right: auto;
+        width: 14em;
+        /* text-align: center; */
+        font-size: 20px;
+    }
+    .dropdown-item:focus, .dropdown-item:hover{
+        color: #b69a6e;
+        background-color: #f5eee6;
+    }
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* @media (max-width:768px){
-    .navPic{
-        width: 100px;
-        height: auto;
-        /* border: #b79b6e solid 5px; */
-    /* }
-}  */
-
-
-
-
-/* @media (max-width: 480px) {
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-.registrationMainSpace{
-    /* background: #ddd; 
-    /* background: #f1e3d577;
-    background: red;
-    /* width: 92%;
-    max-width: 920%; 
-    margin: 0 auto;
-    position: relative;
-    z-index: 2;
-    /* margin-top: -220px; 
-
-}*/
-
-
-
-
-
-
-
-
-/* .goldBtn {
-    background: #B69A6E 0% 0% no-repeat padding-box;
-    font-family: 'FreightSemiBold';
-    border: none;
-    color: #FFFFFF;
-    padding: 9px 20px;
-    margin-top: 20px;
-    border-radius: 6px;
-    font-size: 37pt;
-  } */
-
-
-
-
-/* h1, h2, h3, h4, h5{
-    font-weight: normal;
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-.headText {
-    this centers the text horizontally and vertically
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Reigistrattion Page */
+/* not going to be used */
 .headerbkgd{
     background-color: #12275C;
     color: white;
@@ -876,8 +659,6 @@ label{
     z-index: 1;
     /* color: #f1e3d577; */
 }
-
-
 
 .registration{
    /* position: center; */
@@ -894,59 +675,26 @@ label{
     max-width: 500px; */
     /* padding-bottom: 10px; */
 }
-
 .sidebarRegistration{
     background-color: #F1E3D5;
     /* padding-left: 0px; */
 }
-
 .formSpace{
     margin-right: auto;
     margin-left:auto;
     width: 90%;
 }
-
 .mainRegistration{
     background: #FFFFFF;
     /* width: 90%; */
     /* padding-right: 0px; */
 }
-
-
-
-
-
-
-
-  .regHeadText{
+.regHeadText{
     /* width: 92%;
     max-width: 920px; */
     /* margin: 0 auto; */
     text-align: center;
   }
-
-  /* .regHeadText h1{
-    font-size: 4em;
-    color: #FFFFFF;
-    font-weight: 100;
-    margin-top: 50px;
-  } */
-
- 
-  /* .programHead {
-    padding: 2%;
-    text-align: center;
-  } */
-
- 
-
-  /* .headBtn{
-      border: 3px solid #B69A6E;
-      border-radius: 6px;
-  } */
-
-
-
 .purpBtn {
     margin:0 auto;
     display:block;
@@ -956,32 +704,16 @@ label{
     font-size: 30px;
     border-radius: 6px;
 }
-
-
-
-
 .pageHead{
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
 }
 
-
-
-
-
-
-
-
-
-
-
 /* Countdown clock */
-
 .timerBack{
     background-color: #12275C;
 }
-
 .clockWrapper{
     margin-right: auto; /* 1 */
     margin-left: auto; /* 1 */
@@ -990,13 +722,11 @@ label{
     padding-left: 10px; /* 3 */
     width: 90%;
 }
-
 .clock{
     text-align: center;
     font-weight: 100;
     padding-top: 20px;
 }
-
 .countdownClock{
     font-family: sans-serif;
     color: #fff;
@@ -1005,34 +735,3 @@ label{
     margin-top: 30px;
     padding-bottom: 30px;
 }
-
-
-
-
-
-
-/* .with-chevron[aria-expanded='true'] i {
-    display: block;
-    transform: rotate(180deg) !important;
-  } */
-
-
-
-/* .label{
-    margin-bottom: 10px;
-    font-size: 12px;
-    line-height: 20px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-} */
-
-
-
-
-/* .whiteout{
-    color: #FFFFFF;
-
-} */
-
-
