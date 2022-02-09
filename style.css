@@ -549,66 +549,6 @@ label{
 /**************************************************************/
 /* CSS for different breakpoints */
 /**************************************************************/
-/* small breakpoint */
-@media (max-width:575.98px){
-    /* Multi-page usage */
-    .goldH1{
-        font-size: 12vw;
-    }
-    .blueHotel{
-        text-align: center;
-    }
-    .footImg{
-        text-align: center;
-    }
-    .footText{
-        margin-top: 50px;
-    }
-    /* Navigation */
-    .nav-link{
-        font-size: 10px;
-    }
-  
-
-    /* Landing Page */
-    .numbers{
-        font-size: 11vw;
-    }
-    .numberLabel{
-        font-size: 4vw;
-    }
-    
-    /* FAQ page */
-    .headSpace{
-        margin-top: 50px;
-        margin-bottom: -30px;
-    }
-}
-
-/* Medium brekpoint */
-@media (max-width:767.98px){
-    /* Landing Page */
-    .headButton{
-        float: none;
-    }
-    .birdFix{
-        margin-left: 0;
-        /* font-size: ; */
-    }
-
-    /* Contact Us Page */
-    .sideInfo{
-        text-align: center;
-    }
-}
-
-@media (max-width:922px){
-    /* Landing Page */
-    .birdFix{
-        font-size: 20px;
-    }
-}
-
 /* Large breakpoint */
 @media (max-width:991px){
     .navigationBar{
@@ -649,6 +589,85 @@ label{
         background-color: #f5eee6;
     }
 }
+
+@media (max-width:922px){
+    /* Landing Page */
+    .birdFix{
+        font-size: 20px;
+    }
+}
+
+
+/* Medium brekpoint */
+@media (max-width:767.98px){
+    /* Landing Page */
+    .headButton{
+        float: none;
+    }
+    .birdFix{
+        margin-left: 0;
+        /* font-size: ; */
+    }
+
+    /* Contact Us Page */
+    .sideInfo{
+        text-align: center;
+    }
+}
+
+
+
+
+/* small breakpoint */
+@media (max-width:575.98px){
+    /* Multi-page usage */
+    .goldH1{
+        font-size: 12vw;
+    }
+    .blueHotel{
+        text-align: center;
+    }
+    .footImg{
+        text-align: center;
+    }
+    .footText{
+        margin-top: 50px;
+    }
+    /* Navigation */
+    .nav-link{
+        font-size: 10vw;
+        /* font-size: 10px; */
+    }
+    .dropdown-item{
+        font-size: 4vw;
+        /* font-size: 10vw; */
+
+    }
+  
+
+    /* Landing Page */
+    .numbers{
+        font-size: 11vw;
+    }
+    .numberLabel{
+        font-size: 4vw;
+    }
+    
+    /* FAQ page */
+    .headSpace{
+        margin-top: 50px;
+        margin-bottom: -30px;
+    }
+}
+
+
+
+
+
+
+
+
+
 
 
 
