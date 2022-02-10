@@ -1,21 +1,3 @@
-// Code for Registration form funtionality
-// function ShowHideDiv(){
-//   var fullRetreat = document.getElementById("fullRetreat");
-//   var hotelDates = document.getElementById("hotelDates");
-//   hotelDates.style.display = fullRetreat.checked ? "block" : "none";
-// }
-
-
-
-// testing
-
-
-
-
-
-
-
-
 
 // Code for Countdown functionality
 var retreatDate = new Date("AUG 13, 2022 13:40:30").getTime();

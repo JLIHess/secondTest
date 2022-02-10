@@ -130,8 +130,11 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
     color: #29326e;
     background-color: #f5eee6;
 }
-/* .buttonBord{
-} */
+
+.buttonBord{
+
+}
+
 
 /* Footer */
 .pedicure{
@@ -362,10 +365,10 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
     font-size: 20px;
 }
 .accomodationImg{
-    height: auto;
+    /* height: auto;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: fill;
+    background-size: fill; */
     /* width: 100%; */
     /* max-width: 700px; */
 }
