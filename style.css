@@ -446,7 +446,7 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
     transition: all .10s;
 }
 .text{
-    padding-top: 100px;
+    padding-top: 10px;
 }
 input[type="checkbox"]:checked + .label-collapse::after {
     content: '-';
@@ -660,6 +660,9 @@ label{
     .headSpace{
         margin-top: 50px;
         margin-bottom: -30px;
+    }
+    .text{
+        padding-top: 100px;
     }
 }
 
