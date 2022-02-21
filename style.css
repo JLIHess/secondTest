@@ -225,6 +225,10 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
 .retreatSpacing{
     padding-top: 20%;
 }
+.meetHead{
+    /* margin-top: -16%; */
+
+}
 .playVideo{
     background-color: transparent;
     border: none;
@@ -240,7 +244,7 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
 .retreatP{
     color: #29326E;
     font-family: 'GroteskLight';
-    font-size: 23px;
+    /* font-size: 23px; */
 }
 .learnMore{
     color: #B69A6E;
@@ -254,7 +258,7 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
     display: grid;
     align-items: center;
     text-align: center;
-    border-radius: 180px;
+    /* border-radius: 180px; */
 }
 .numbers{
     font-family: 'CanelaRegular';
@@ -288,9 +292,9 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
     font-size: 25px;
     line-height: 35px;
 }
-.proImage {
+/* .proImage {
     border: 1px solid #B69A6E;
-}
+} */
 .earlyTest{
     background: #29326e;
     margin: 0 auto;
@@ -346,13 +350,15 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
 /**************************************************************/
 /* Accomodations Page */
 /**************************************************************/
-.accomodationHeaderBkgd{
+/* .accomodationHeaderBkgd{
     background: #FFFFFF;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    /* height: 500px; */
-    /* padding-top: 20; */
-    /* margin-top: 20px; */
+} */
+.spaceOut{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.row.rowAcom{
+    --bs-gutter-x: 0rem;
 }
 .blueHotel{
     color: #17244B;
@@ -363,14 +369,6 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
     color: #17244B;
     font-family: 'GroteskLight';
     font-size: 20px;
-}
-.accomodationImg{
-    /* height: auto;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: fill; */
-    /* width: 100%; */
-    /* max-width: 700px; */
 }
 .accomodationInfo{
     background: #fbf7f3;
