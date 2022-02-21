@@ -68,7 +68,7 @@
     width: 90%;
 }
 .goldH1{
-    color: #B69A6E;
+    color: #b79b6e;
     font-family: 'CanelaRegular';
     /* font-size: 4vw; */
     font-size: 70px;
@@ -102,8 +102,8 @@
     /* color: #29326e; */
 }
 .custom-toggler.navbar-toggler{
-    border-color: #B69A6E;
-    color: #B69A6E;
+    border-color: #b79b6e;
+    color: #b79b6e;
 }
 .custom-toggler .navbar-toggler-icon{
 background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(183, 155, 110, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
@@ -210,7 +210,7 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
     float: right;
 }
 .headerButton{
-    background: #B69A6E 0% 0% no-repeat padding-box;
+    background: #b79b6e 0% 0% no-repeat padding-box;
     font-family: 'FreightSemiBold';
     border: none;
     color: #FFFFFF;
@@ -237,22 +237,22 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
     max-width: 595px;
 }
 .recap{
-    color: #B69A6E;
+    color: #b79b6e;
     font-family: 'GroteskBold';
     font-size: 28px;
 }
 .retreatP{
     color: #29326E;
     font-family: 'GroteskLight';
-    font-size: 23px; 
+    font-size: 23px;
 }
 .learnMore{
-    color: #B69A6E;
+    color: #b79b6e;
     font-family: 'FreightBookItalic';
     font-size: 27px;
 }
 .goldBox{
-    background: #B69A6E;
+    background: #b79b6e;
     height: 235px;
     margin-top: -117.5px;
     display: grid;
@@ -293,7 +293,7 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
     line-height: 35px;
 }
 /* .proImage {
-    border: 1px solid #B69A6E;
+    border: 1px solid #b79b6e;
 } */
 .earlyTest{
     background: #29326e;
@@ -306,7 +306,7 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
     z-index: 1;
 }
 .earlygoldBox{
-    background: #B69A6E;
+    background: #b79b6e;
     height: 143px;
     margin-top: -95.5px;
     display: flex;
@@ -486,7 +486,7 @@ input[type="checkbox"]:checked + .label-collapse ~ .label-content {
     /* border: #5f5f613a solid 0.1px; */
     padding: 10px;
     padding-bottom: 60px;
-    /* background-color: #b69a6e6b; */
+    /* background-color: #b79b6e6b; */
 }
 .formHeader{
     text-align: center;
@@ -511,7 +511,7 @@ label{
     font-family: 'GroteskLight';
 }
 .submitBtn{
-    background: #B69A6E;
+    background: #b79b6e;
     color: #FFFFFF;
 }
 .details-wrap{
@@ -561,14 +561,14 @@ label{
         /* text-align: center; */
         font-size: 7vw;
         /* font-size: 50px; */
-        color: #B69A6E;
+        color: #b79b6e;
         /* color: red; */
         margin-bottom: -40px;
 
         /* padding-bottom: 10px; */
     }
     .nav-link:focus, .nav-link:hover{
-        color: #b69a6e66;
+        color: #b79b6e66;
     }
     .dropdown-menu.show{
         background-color: transparent;
@@ -577,7 +577,7 @@ label{
         border: none;
     }
     .dropdown-item{
-        color:#b69a6e;
+        color:#b79b6e;
         /* margin-left: auto;
         margin-right: auto; */
         width: 14em;
@@ -586,7 +586,7 @@ label{
         /* font-size: 20px; */
     }
     .dropdown-item:focus, .dropdown-item:hover{
-        color: #b69a6e;
+        color: #b79b6e;
         background-color: #f5eee6;
     }
 }
