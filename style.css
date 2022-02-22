@@ -333,6 +333,7 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
     font-family: 'GroteskBold';
     font-size: 28px;
     margin-left: -13%;
+    padding: 10px;
 }
 .clearButton{
     background: transparent;
@@ -340,8 +341,9 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
     border: solid #f2e4d6 1px;
     color: #f2e4d6;
     font-size: 23px;
-    padding: 0px 10px;
-    border-radius: 4px;
+    padding: 10px;
+    /* padding: 0px 10px; */
+    /* border-radius: 4px; */
 }
 .testimonials{
     height: 500px;
