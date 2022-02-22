@@ -120,6 +120,8 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
     font-family: 'GroteskRegular';
     color: #29326e;
     font-size: 17px;
+    /* padding-left: 100px;
+    padding-right: 100px; */
 }
 .nav-link:focus, .nav-link:hover{
     color: #29326ead;
@@ -569,6 +571,28 @@ label{
 /**************************************************************/
 /* CSS for different breakpoints */
 /**************************************************************/
+
+    .navrbar-expand-lg .navbar-nav .nav-link {
+        /* padding-right: 50px;
+        padding-left: 50px; */
+        /* padding-right: 3.5rem;
+        padding-left: 2.5rem; */
+
+        /* padding-right: 150%;
+        padding-left: 150%; */
+    }
+    .navbar-nav > li{
+        /* padding-left:30px;
+        padding-right:30px; */
+        /* padding-left:1%;
+        padding-right:1%; */
+        padding-right: 1em;
+        padding-left: 1em;
+      }
+    
+
+
+
 /* Large breakpoint */
 @media (max-width:991px){
     .navigationBar{
