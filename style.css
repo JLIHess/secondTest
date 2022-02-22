@@ -93,6 +93,13 @@
 .biegeBackground{
     background: #fdfbf8;
 }
+.headSpace{
+    margin-top: 100px;
+    text-align: center;
+}
+.spacer {
+    margin-top: 100px;
+}
 
 /* Nav Bar */
 .navigationBar{
@@ -405,13 +412,7 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
 /**************************************************************/
 /* FAQ Page */
 /**************************************************************/
-.headSpace{
-    margin-top: 100px;
-    text-align: center;
-}
-.spacer {
-    margin-top: 100px;
-}
+
 .faqSection{
     padding: 1em;
 }
@@ -442,11 +443,16 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
     justify-content: space-between;
     padding: 1em;
     font-family: 'GroteskMedium';
+    /* width: 80%; */
 }
+/* .label.label-collapse {
+    width: 90%;
+} */
 .label-collapse::after {
     content: '+';
     text-align: center;
-    transition: all .10s;   
+    transition: all .10s;
+    padding-left: 30px;   
 }
 .label-content {
     max-height: 0;
@@ -483,10 +489,10 @@ input[type="checkbox"]:checked + .label-collapse ~ .label-content {
 /* .contactForm{
     background: #fdfbf8;
 } */
-.contactHeader{
+/* .contactHeader{
     color: #b79b6e;
     
-}
+} */
 .form-group{
     margin-top: 20px;
     color: #12275C;
